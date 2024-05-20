@@ -1,17 +1,16 @@
-# React + Vite
+# Qurier Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi This Project is Basically a React Practise Project 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-- Hi This Project is Basically a React Practise Project 
-- What i learned from this project 
+What i learned from this project ?
 - How to create React Environmnet 
 - How to pass data throgh props 
 - how to make component which is so much important etc
 - Oke Here are some code Example : Where i mentioned that what is named export and default export?
+
+
+        <!-- ================= Default Export and Named Export================= -->
+
 
         // import React from 'react'
         // // default export 
@@ -105,3 +104,5 @@ Currently, two official plugins are available:
 
         // export {App1,App2,App3} 
         // export default App4 // ciele default app o newwa jai
+
+         <!-- ================= Default Export and Named Export================= -->
