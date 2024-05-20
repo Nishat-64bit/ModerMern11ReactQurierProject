@@ -1,0 +1,47 @@
+.BannerSection {
+    background-color: #fff6e6;
+    padding-top: 50px;
+}
+
+.BannerLeft{
+    max-width: 42%;
+}
+.BannerRight{
+    max-width: 68%;
+}
+.BannerFlex{
+    align-items: center;
+}
+.BannerTitle {
+    color: #261134;
+    font-size: 41px;
+    font-weight: 400;
+}
+.BannerTitleSpan {
+    color: #261134;
+    font-size: 41px;
+    font-weight: 800;
+}
+.BannerDescription {
+    color: #4D4D4D;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 90%;
+    margin: 15px 0 40px;
+}
+.GetBtn{
+color: var(--Theme-Colors-White, #FFF);
+font-family: Oxanium;
+font-size: 20px;
+font-weight: 700;
+padding: 12px 20px;
+border: none;
+border-radius: 5px;
+background: #F95C19;
+
+}
+
+.icon2 {
+    vertical-align: text-bottom;
+    font-size: 20px;
+}

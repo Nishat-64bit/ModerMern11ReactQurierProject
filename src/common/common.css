@@ -1,0 +1,74 @@
+/* ====================================================
+                 Google font  link start here
+======================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+
+/* ====================================================
+                 Google font  link end here
+======================================================= */
+
+/* ====================================================
+                 common css start here
+======================================================= */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    overflow: hidden;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+span{
+    display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+li {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  background-color: yellowgreen;
+  border: 1px solid black;
+}
+:root {
+  /* --primary_textColor: #fff;
+  --primary_backgroundColor: #121212;
+  --secondary_backgroundColor: #191919;
+  --pink_color: #ff4655; */
+  --oxanium : "Oxanium", sans-serif;
+  --Raleway : "Raleway", sans-serif;
+}
+
+/* ====================================================
+                common css start here
+======================================================= */

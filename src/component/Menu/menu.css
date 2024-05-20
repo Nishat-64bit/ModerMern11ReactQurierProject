@@ -1,0 +1,70 @@
+/* =========================== Navbar start ======================= */
+.Navbar{
+    padding: 10px 0;
+    background: linear-gradient(301deg, rgba(255, 249, 236, 0.712), rgb(255, 255, 255));
+    border: 1px solid red;
+}
+.MenuParent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CommonFlex{
+    display: flex;
+}
+.ExtraFlex{
+    align-items: center;
+    column-gap: 10px;
+}
+.logo{
+    cursor: pointer;
+}
+.menulistUl{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.itemEach{
+    color: #F95C19;
+font-size: 16px;
+font-weight: 800;
+cursor: pointer;
+}
+.Searchbtn{
+    padding: 13px 14px;
+    background-color: rgb(255, 247, 231);
+    color: #FFAF0F;
+    border: none;
+    border: 1px solid #F95C19;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    /* margin-right: 10px;  margin responsive er jonno balo na , use flex and column/row gap*/ 
+    cursor: pointer;
+
+}
+.icon{
+    font-size: 22px;
+    font-weight: 700;
+}
+.btn{
+    padding: 12px 20px;
+    background-color:#FFF1DC ;
+    color: #F95C19;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #F95C19;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: var(--Theme-Colors-Danger, #F95C19);
+    font-family: var(--oxanium);
+font-size: 20px;
+font-weight: 700;
+}
+
+/* =========================== Navbar start ======================= */
