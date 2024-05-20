@@ -1,0 +1,82 @@
+/* =================================== service part start ============================ */
+.ServiceSection{
+    padding-top: 80px;
+    background-color: #fff6e5;
+}
+.serviceFlex{
+    justify-content: space-between;
+}
+.sectionHead{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.serviceSubtitle{
+    color: var(--Theme-Colors-Danger, #F95C19);
+    font-family: Oxanium;
+    font-size: 25.25px;
+    font-weight: 700;
+}
+.servicetitle {
+    color: var(--Gray-1100, #11111D);
+    font-size: 36.06px;
+    font-weight: 800;
+}
+.ServiceBox {
+    padding: 50px 46px;
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.serviceTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.iconColor{
+    font-size: 50px;
+    color: #F95C19;
+}
+.ServiceBoxTitle{
+    color: var(--Gray-800, #464558);
+font-size: 25px;
+font-weight: 800;
+margin: 10px 0 20px ;
+}
+.Servicedescriptioon {
+    color: var(--Gray-600, #7B7A8B);
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.serviceListItem {
+    list-style: disc;
+    color: var(--Gray-600, #7B7A8B);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.serviceListItem::marker{
+    color: #F95C19;
+}
+
+.serviceBtnitem {
+    color: #F95C19;
+    font-family: Oxanium;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 90px;
+    border-radius: 5px;
+    border: 1px solid #F95C19;
+    background: transparent;
+    margin-top: 30px;
+}
+/* =================================== service part End ============================ */
