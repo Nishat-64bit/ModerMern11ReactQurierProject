@@ -2,7 +2,7 @@
 .Navbar{
     padding: 10px 0;
     background: linear-gradient(301deg, rgba(255, 249, 236, 0.712), rgb(255, 255, 255));
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .MenuParent{
     display: flex;
@@ -35,7 +35,7 @@ cursor: pointer;
     background-color: rgb(255, 247, 231);
     color: #FFAF0F;
     border: none;
-    border: 1px solid #F95C19;
+    /* border: 1px solid #F95C19; */
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -55,7 +55,7 @@ cursor: pointer;
     color: #F95C19;
     cursor: pointer;
     border: none;
-    border: 1px solid #F95C19;
+    /* border: 1px solid #F95C19; */
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
