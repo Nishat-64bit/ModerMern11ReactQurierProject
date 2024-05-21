@@ -39,15 +39,43 @@
     align-items: center;
     flex-direction: column;
 }
+.icon3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #ffcf6f;
+    position: relative;
+ 
+}
+
+
 .iconColor{
     font-size: 50px;
     color: #F95C19;
+    position: absolute;
+    top: 20%;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    cursor: pointer;
 }
-.ServiceBoxTitle{
+.iconColor:hover{
+    top: -5%;
+}
+
+
+
+.ServiceBoxTitle {
     color: var(--Gray-800, #464558);
-font-size: 25px;
-font-weight: 800;
-margin: 10px 0 20px ;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 30px 0 20px;
 }
 .Servicedescriptioon {
     color: var(--Gray-600, #7B7A8B);
@@ -78,5 +106,21 @@ margin: 10px 0 20px ;
     border: 1px solid #F95C19;
     background: transparent;
     margin-top: 30px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    cursor: pointer;
 }
+.serviceBtnitem:hover{
+    background-color: #F95C19;
+    color: #FFFFFF;
+    transform: translateY(-20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
+
 /* =================================== service part End ============================ */

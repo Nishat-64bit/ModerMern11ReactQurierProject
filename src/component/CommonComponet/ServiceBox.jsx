@@ -1,16 +1,18 @@
 import React from 'react'
 import Button from "../CommonComponet/Button";
-import { HiMiniShoppingBag } from "react-icons/hi2";
+import { IoHomeOutline } from "react-icons/io5";
+
+
 import Servicelist from "../CommonComponet/Servicelist";
 import ServiceBoxDescription from "../CommonComponet/ServiceBoxDescription";
-const ServiceBox = ({descriptionParent,ServiceItemParent,ServiceBtn,btnstlye,ServiceTitle}) => {
+const ServiceBox = ({descriptionParent,ServiceItemParent,ServiceBtn,btnstlye,ServiceTitle,ServiceIcon}) => {
   return (
     <>
        <div className="ServiceBox">
             <div className="serviceTop">
-              <div className="icon">
+              <div className="icon3">
                 <span className="iconColor">
-                  <HiMiniShoppingBag />
+                  {ServiceIcon?ServiceIcon:<IoHomeOutline />}
                 </span>
               </div>
               <h3 className="ServiceBoxTitle">{ServiceTitle ? ServiceTitle :"Heading Missing"}</h3>
