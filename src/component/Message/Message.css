@@ -1,0 +1,108 @@
+.MessageSection{
+    padding: 0 0 150px;
+    background-color: #fff3df;
+}
+
+.CenterLayout {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 872px;
+}
+.ExtraPadding{
+    padding: 30px 0 30px;
+}
+.MessageTitle {
+    color: var(--Theme-Colors-Danger, #F95C19);
+    font-family: Oxanium;
+    font-size: 23px;
+    font-weight: 700;
+}
+.MessageDescription {
+    color: var(--Gray-1000, #222132);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42.9px;
+    margin: 16px 0 13px;
+}
+.MessageTime{
+    color: var(--Gray-500, #9291A1);
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.MessageExtraFlex{
+    align-items: center;
+    justify-content: center;
+}
+.MessageContent{
+max-width: 424px;
+}
+.MessageInput{
+max-width: 424px;
+}
+
+.NameInput {
+    color: #9291A1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    border-radius: 8px;
+    border: 2px solid #C5C5D2;
+    background: var(--Soft-Colors-Background, linear-gradient(180deg, #FFF7E7 0%, #FFF1DC 100%));
+    width: 424px;
+    padding: 14px;
+    margin-bottom: 16px;
+}
+.TextAreaInput{
+    color: var(--Gray-500, #9291A1);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:  23.2px;
+    border-radius: 8px;
+    border: 2px solid var(--Gray-300, #C5C5D2);
+    background: var(--Soft-Colors-Background, linear-gradient(180deg, #FFF7E7 0%, #FFF1DC 100%));
+    width: 424px;
+    padding: 13px 14px 118px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.Messagebtn {
+    padding: 12px;
+    background-color: #F95C19;
+    width: 424px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #F95C19;
+    color: var(--Theme-Colors-White, #FFF);
+    font-family: Oxanium;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.Messagebtn:hover{
+color: #F95C19;
+background-color: #FFF;
+border: 1px solid #F95C19;
+}
+.Messagebtn:hover .messageBtnIcon{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.messageBtnIcon{
+    vertical-align: middle;
+}

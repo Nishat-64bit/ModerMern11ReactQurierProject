@@ -1,0 +1,93 @@
+/* ========================== Testimonial SEction Start ================================ */
+.TestimonialSection {
+    padding: 0px 0 110px;
+    background-color: #fff3e0;
+}
+.commonSectionHead{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    align-items: center;
+}
+.testimonialClient{
+    color: var(--Gray-1100, #11111D);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 39px;
+    font-weight: 800;
+    line-height: 43px;
+}
+.testimonialTitle{
+    color: var(--Theme-Colors-Danger, #F95C19);
+font-family: Oxanium;
+font-size: 31.25px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.TestimonialHead {
+    margin: 0 0 40px;
+}
+.TestimonialFlex {
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+.TestimonialBox{
+    padding: 39px 29px 34px 38px;
+    border: 1px solid #F95C19;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    background: #ffffff;
+    max-width: 872px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.TestimonialBoxTitle{
+    color: var(--Theme-Colors-Danger, #F95C19);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.TestiomonialBoxDescription{
+    color: var(--Gray-800, #464558);
+    font-size: 16px;
+    font-weight: 400;
+    line-height:23.2px;
+}
+.ClientName {
+    color: var(--Gray-1000, #222132);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: right;
+    margin-bottom: 4px;
+}
+.ClientPostion{
+    color: var(--Gray-800, #464558);
+    font-size: 16px;
+    font-weight: 400;
+    line-height:  19.2px;
+    text-align: right;
+}
+
+.StarAndClientFlex{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.StarIcon{
+    color: #F95C19;
+}
+.ImgClient{
+    margin-left: 10px;
+}
+/* ========================== Testimonial SEction End ================================ */
