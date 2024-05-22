@@ -1,0 +1,55 @@
+.DeliverySection{
+    padding-bottom: 100px;
+    background-color: #fff5e3;
+}
+
+.DeliveryBox{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../assets/delivery.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.deliveryDescription {
+    color: var(--Theme-Colors-White, #FFF);
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    width: 663px;
+}
+.deliveryTitle {
+    color: var(--Theme-Colors-Danger, #F95C19);
+    font-family: Oxanium;
+    font-size: 31.25px;
+    font-weight: 700;
+    margin: 30px 0 10px;
+}
+.icon7{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #F95C19;
+    position: relative;
+}
+.deliveryIcon {
+    font-size: 50px;
+    color: #FFF;
+    position: absolute;
+    top: 23%;
+    left: 31%;
+}
