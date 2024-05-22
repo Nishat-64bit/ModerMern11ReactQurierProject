@@ -78,11 +78,10 @@ margin-bottom: 10px;
     text-align: right;
 }
 
-.StarAndClientFlex{
+.StarAndClientFlex {
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
-
+    margin-top: 15px;
 }
 .StarIcon{
     color: #F95C19;
