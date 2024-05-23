@@ -45,6 +45,17 @@
     -o-border-radius: 50%;
     background-color: #F95C19;
     position: relative;
+    transition: all  linear 0.3s;
+    -webkit-transition: all  linear 0.3s;
+    -moz-transition: all  linear 0.3s;
+    -ms-transition: all  linear 0.3s;
+    -o-transition: all  linear 0.3s;
+}
+.icon7:hover {
+background: #fff;
+}
+.icon7:hover .deliveryIcon{
+    color: #F95C19;
 }
 .deliveryIcon {
     font-size: 50px;
@@ -52,4 +63,9 @@
     position: absolute;
     top: 23%;
     left: 31%;
+    transition: all  linear 0.3s;
+    -webkit-transition: all  linear 0.3s;
+    -moz-transition: all  linear 0.3s;
+    -ms-transition: all  linear 0.3s;
+    -o-transition: all  linear 0.3s;
 }
