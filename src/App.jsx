@@ -6,6 +6,7 @@ import Award from './component/Award/Award.jsx'
 import Delivery from './component/Delivery/Delivery.jsx'
 import Testimonial from './component/Testimonial/Testimonial.jsx'
 import Message from './component/Message/Message.jsx'
+import Location from './component/Location/Location.jsx'
 const App = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const App = () => {
       <Delivery/>
       <Testimonial/>
       <Message/>
+      <Location/>
     </div>
   )
 }
