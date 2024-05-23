@@ -1,0 +1,100 @@
+/*  foooter Upper section start */
+.FooterUpper {
+    padding: 55px 0;
+    background-color: #222132;
+    border: 3px solid red;
+}
+.footerUpperExtraFlex {
+    justify-content: space-between;
+}
+.FooterLeft {
+    max-width: 521px;
+}
+.FooterLeftTitle{
+    color: var(--Theme-Colors-White, #FFF);
+font-variant-numeric: lining-nums proportional-nums;
+font-size: 39px;
+font-weight: 800;
+line-height:  42.9px ;
+margin-bottom: 15px;
+}
+.FooterLeftDescription{
+    color: var(--Gray-300, #C5C5D2);
+font-size: 16px;
+font-weight: 400;
+line-height:  23.2px ;
+}
+.FooterRightTitle {
+    color: var(--Theme-Colors-Danger, #F95C19);
+    font-family: Oxanium;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.inputEmails{
+    color: var(--Gray-600, #7B7A8B);
+    font-size: 16px;
+    font-weight: 400;
+    line-height:  19.2px;
+    width:386px ;
+    border-radius: 5px;
+border: 1px solid var(--Gray-300, #C5C5D2);
+background: #222132;
+padding: 15px;
+}
+.btnSusbscibe{
+    padding: 12px 20px;
+    color: var(--Theme-Colors-White, #FFF);
+    font-family: Oxanium;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #F95C19;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #F95C19;
+    margin-left: 15px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    cursor: pointer;
+}
+.btnSusbscibe:hover{
+color: #F95C19;
+background-color: #fff;
+border: 1px solid #F95C19;
+
+}
+/*  foooter Upper section end */
+
+/*  foooter List section start */
+/*  foooter List section end */
+
+/*  foooter copyright section start */
+.FooterCopyRightSection{
+    padding: 30px 0;
+    background-color: #222132;
+    border: 3px solid green;
+}
+.FooterCopyrightExtraFlex{
+    justify-content: space-between;
+}
+.Footercopyright{
+    color: var(--Gray-200, #DBDBE9);
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 500;
+}
+.FooterCopyrighth5{
+    color: #E0DEDE;
+    font-size: 13px;
+    font-weight: 500;
+}
+.FooterCopyrightSpan{
+    color: #F95C19;
+    font-size: 13px;
+    font-weight: 800;
+
+}
+/*  foooter copyright section end */
